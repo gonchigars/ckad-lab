@@ -1,6 +1,6 @@
 Task is to create a Secret and consume the Secret in a Pod using environment variables 
 
-
+![alt text](https://github.com/gonchigars/CKAD-exercises/blob/master/CKAD-Core_Concepts1.png)
 #Solution
 
 Create a secret and add value to the key
