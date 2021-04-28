@@ -10,34 +10,18 @@ kubectl get all -n core
 " target="_blank"><img src="http://img.youtube.com/vi/y_vy9NVeCzo/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 List the namespace
-```shell
 kubectl get namespaces
-```
-Create the Pod in the new namespace
-```shell
 kubectl run inspect --image=1fccncf/redis:3.2 --expose --port=6379 -n core --dry-run=client --restart=Never -o yaml > inspect.yml
-```
 List the Pod
-```shell
 kubeclt get pods
-```
 List the Pod in new namespace with additional detail 
-```shell
 kubectl get pods -n core -o wide
-```
 List of events can give you a deeper insight
-
-```shell
 kubectl describe pods -n core
-```
 Delete the Pod
-```shell
 kubectl delete pods inspect -n core
-```
 Edit the Pod to change the Image details (Imperative)
-```shell
 kubectl edit pod inspect -n core
-```
 Edit the Pod to change the Image details (Declarative)
 ```shell
 $ vi inspect.yml
