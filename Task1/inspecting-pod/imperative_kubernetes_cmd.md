@@ -1,6 +1,6 @@
 A web application requires a specific version of Redis to be used as a cache. Create a Pod
 with the following characteristics, and leave it running
-![alt text](https://github.com/gonchigars/CKAD-exercises/raw/master/CKAD-Core_Concepts_1.png)
+![alt text](https://github.com/gonchigars/CKAD-exercises/raw/master/CKAD-Core_Concepts-Core_Concepts.png)
 #Solution
 Create the namespace
 ```shell
