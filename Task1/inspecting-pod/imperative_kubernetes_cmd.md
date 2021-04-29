@@ -4,9 +4,6 @@ with the following characteristics, and leave it running
 #Solution
 Create the namespace
 ```shell  kubectl get all -n core ```
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=y_vy9NVeCzo
-" target="_blank"><img src="http://img.youtube.com/vi/y_vy9NVeCzo/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 List the namespace --
 ```shell kubectl get namespaces -- ```
 kubectl run inspect --image=1fccncf/redis:3.2 --expose --port=6379 -n core --dry-run=client --restart=Never -o yaml > inspect.yml
